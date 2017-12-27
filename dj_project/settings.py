@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'dj_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'car_db',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'NAME': 'mishagunkin$default',
+        'USER': 'mishagunkin',
+        'PASSWORD': 'rootroot',
+        'HOST': 'mishagunkin.mysql.pythonanywhere-services.com',
         'PORT': 3306,
         'OPTIONS': {'charset':'utf8'},
         'TEST_CHARSET': 'utf8',
